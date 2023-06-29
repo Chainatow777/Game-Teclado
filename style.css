@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Concert One', cursive;
+    font-size: 25pt;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.informations {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.senha {
+    margin-top: 20px;
+}
+
+#pontuacao {
+    font-weight: bold;
+    color: blue;
+}
+
+#cronometro {
+    font-weight: bold;
+    color: blue;
+}
+
+.bolinha {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.correta {
+    background-color: green;
+}
+
+.incorreta {
+    background-color: red;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.pontuacao {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.cronometro {
+    display: inline-block;
+}
+
+#palavra-correta {
+    color: teal;
+    font-weight: bold;
+}
+
+button {
+    font-size: 20pt;
+    border: none;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+#teclas {
+    font-weight: bold;
+    font-size: 40pt;
+    background-color: rgb(46, 44, 44);
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    animation: pulse 1s ease-in infinite;
+}
