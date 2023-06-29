@@ -4,7 +4,7 @@ Este projeto consiste em um jogo de digitação no qual o jogador deve digitar c
 
 ## Pré-requisitos
 
-- Navegador web moderno.
+- Navegador web.
 
 ## Instruções de uso
 
